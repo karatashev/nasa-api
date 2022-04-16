@@ -1,0 +1,103 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./klemen-vrankar-lcT_p8kLCsc-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  font-family: 'Play', sans-serif;
+  font-weight: normal;
+}
+
+.nasa {
+  color: red;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.day {
+  color: #3a86ff;
+}
+
+h1 {
+  margin: 30px 2px;
+  font-size: 2rem;
+}
+
+input[type="date"] { 
+  background: white;
+  color: #3a86ff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #3a86ff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+}
+
+
+.img-div {
+  width: 80%;
+  height: 700px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.explanation {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+/* Media queries */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .img-div {
+    width: 90%;
+    height: 300px;
+  }
+  h1 {
+    margin-top: 50px;
+  }
+}
